@@ -1,0 +1,25 @@
+.link {
+    text-decoration: none;
+    font-weight: 700;
+  
+    
+    color: var(--color-dack);
+   
+transition-duration: 0.2s;
+ margin-right: 20px;
+ margin-left: 20px;
+  }
+  
+  .active {
+    /* composes: link; */
+    background-color:  rgb(175, 225, 209);
+  
+    color: rgb(19, 42, 34);
+  text-decoration: underline;
+    padding: 6px 12px;
+    border-radius: 4px;
+  
+    /* transform: scale(1); */
+    pointer-events: none;
+  }
+ 

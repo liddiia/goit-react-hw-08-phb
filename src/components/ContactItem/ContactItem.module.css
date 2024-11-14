@@ -1,0 +1,39 @@
+.contactItem {
+  color: var(--color-dack);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid var(--color-dack);
+  border-radius: 10px;
+  padding: 10px;
+}
+.contactItemData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;;
+}
+.contactN {
+  padding: 6px;
+  margin: 0;
+}
+
+.contactItemTitel {
+  font-size: 18px;
+ color:var(--color-dack);
+}
+.contactDelButton {
+  color: rgb(120, 31, 31);
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid var(--color-dack);
+  background-color:var(--color-light);
+  margin: auto;
+}
+
+.contactDelButton:hover,
+.contactDelButton:focus {
+  background-color: rgb(120, 31, 31);
+  color:var(--color-light);
+}
